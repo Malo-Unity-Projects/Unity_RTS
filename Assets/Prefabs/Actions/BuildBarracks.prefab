@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1829576913919280893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1829576913919280835}
+  - component: {fileID: 1829576913919280892}
+  m_Layer: 0
+  m_Name: BuildBarracks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1829576913919280835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829576913919280893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 522.2008, y: 74.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1829576913919280892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829576913919280893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd54cc426dd5a8459595b6219945c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Build Barracks
+  timeToBuild: 15
+  resourcesCosts:
+  - resourceType: 0
+    resourceCost: 30
+  requiredUpgrades: 00000000
+  onUseGainedUpgrades: 01000000
+  description: The building used to recruit soldiers
+  isOverflown: 0
+  nameText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  actionSprite: {fileID: 21300000, guid: c7952da50b1293d47af49fcf0c160ef4, type: 3}
+  playerInventory: {fileID: 0}
+  buildingToBuild: {fileID: 1007350526592884316, guid: d9926c3d6a9e3bf4fac609a6f05d7392,
+    type: 3}
+  buildingLayout: {fileID: 630827654050592719, guid: 937fbaf114139cc41a31af7fb90c141e,
+    type: 3}
